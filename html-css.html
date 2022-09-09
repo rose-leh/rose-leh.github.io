@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rose's Blog</title>
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+  </head>
+  <body>
+    <title> Tech blogs</title>
+    <h1 class="techParagraph">The Difference between Relative, Absolute and Fixed Positioning</h1>
+    <br>
+    <p class="date">September 9, 2022
+      <br>
+      <h1 class="titleOfBody">Relative Positioning</h1>
+      <p class="colorOfBody">An element with a relative position is placed relative to its default position within the parent element. You would need to specify position attributes such as the top, right, bottom and left properties so that the element will be adjusted away from its normal position. Using these positioning elements moves the elements around the default position without affecting others. <br>
+        <br>
+        Please see sample below:
+        <br>
+        <br>
+        <img style="width: 50%;" src="./images/Image1.png">
+        <br> <br>
+        <p class="colorOfBody">We changed the position of the blue block without affecting the position of the others. 
+        </p>
+        <h1 class="titleOfBody">Absolute Positioning</h1>
+      <p class="colorOfBody">An element with an absolute position allows you to literally place any page element exactly where you want it. It is placed relative to the nearest positioned ancestor. We use the position attributes top, left, bottom and right to set the location. If there are no positioned ancestors , it uses the document body and moves along with the page scrolling.
+        <br>
+        <br>
+        Absolute positioning elements are removed from the flow of the document, affecting layout of other elements on the page. 
+        <br>
+        <br>
+      Please see sample below:
+        <br>
+        <br>
+        <img style="width: 50%;" src="./images/Image 2.png">
+        <br> <br>
+        <p class="colorOfBody">The blue block’s space is now occupied by the green block. Currently, the absolute element (blue block) has no relationship with the container. 
+        </p>
+          <h1 class="titleOfBody">Fixed Positioning</h1>
+          <p class="colorOfBody">A fixed position element is positioned relative to the viewport. The viewport doesn’t change when the window is scrolled. A fixed positioned element will stay in its place even when the page is scrolled. A good example of this one is a navigation bar that you want to remain visible all the time even when scrolling the page. The fixed element only respects the viewport regardless of the relative parent.
+            <br>
+            <br>
+            Please see sample below:
+            <br>
+            <br>
+            <img style="width: 50%;" src="./images/Image 3.png">
+            <br> <br>
+            <img style="width: 50%;" src="./images/Image 4.png">
+            <p class="colorOfBody">The viewport is the only one respected by the fixed element regardless of the relative parent. 
+            </p>
+    </p>
+    <a href="./index.html">Return to Homepage</a>
+    
+  </head>
+</html>

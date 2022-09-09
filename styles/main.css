@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(240, 224, 200);
+}
+
+img {
+  width: 50%;
+  border-radius: 5%;
+  padding-top: 20px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.greeting {
+  color: #48443f;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+ 
+
+.navbar {
+  position: sticky;
+  display: inline-flexbox;
+  text-align: center;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: rgba(125, 92, 42, 0.644);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li {
+  display: inline;
+  text-align: center;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.heading {
+  color: #48443f;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.techParagraph {
+  color: #48443f;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.date {
+  color: #474643;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.titleOfBody {
+  color: #474643;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.colorOfBody {
+  color: #474643;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tech-link {
+  display: inline-block;
+  color: rgb(55, 46, 46);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background: rgb(150, 120, 64);
+  
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: rgb(91, 62, 0);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
