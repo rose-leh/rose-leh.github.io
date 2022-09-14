@@ -114,3 +114,9 @@ footer {
   background: rgb(185, 156, 103);
   font-size: 20px;
 }
+.emphasis {
+  color: #48443f;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-style: bold;
+}
