@@ -88,14 +88,7 @@ footer {
   bottom: 0;
   text-align: center;
 }
-.footer2 {
-  position: fixed;
-  width: 500px;
-  height: 200px;
-  margin: 3% auto;
-  bottom: 5px;
-  text-align: center;
-}
+
 .coreParagraph {
   color: #48443f;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
