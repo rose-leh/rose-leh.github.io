@@ -1,5 +1,7 @@
 body {
   background-color: rgb(240, 224, 200);
+  max-width: 80ch;
+  margin: 0 auto;
 }
 
 img {
@@ -92,8 +94,8 @@ footer {
 .coreParagraph {
   color: #48443f;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-align: left;
-  line-height: 2.5;
+  text-align: justify;
+  line-height: 1.5;
 }
 
 
@@ -144,5 +146,6 @@ footer {
 .coreParagraph2 {
   color: #48443f;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-align: left;
+  text-align: justify;
 }
+
